@@ -1,7 +1,10 @@
 <template>
   <!-- <ComicsComponent /> -->
   <!-- <PadreDeporte /> -->
-  <SeleccionMultiple />
+  <!-- <SeleccionMultiple /> -->
+
+  <Menu />
+  <router-view></router-view>
 </template>
 
 <script>
@@ -9,7 +12,8 @@
 // import PadreDeporte from "./components/PadreDeporte.vue";
 // import PadreNumeros from "./components/PadreNumeros.vue";
 // import ComicsComponent from "./components/ComicsComponent.vue";
-import SeleccionMultiple from "./components/SeleccionMultiple.vue";
+//import SeleccionMultiple from "./components/SeleccionMultiple.vue";
+import Menu from "./components/Menu.vue";
 
 export default {
   name: "App",
@@ -17,7 +21,8 @@ export default {
     // PadreDeporte,
     // PadreNumeros,
     // ComicsComponent,
-    SeleccionMultiple,
+    // SeleccionMultiple,
+    Menu,
   },
 };
 </script>
