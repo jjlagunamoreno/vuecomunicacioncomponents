@@ -1,23 +1,23 @@
 <template>
   <!-- <ComicsComponent /> -->
-  <ComicsComponent />
-  <hr />
   <!-- <PadreDeporte /> -->
-  <PadreNumeros />
+  <SeleccionMultiple />
 </template>
 
 <script>
 // import HijoDeporte from "./components/HijoDeporte.vue";
 // import PadreDeporte from "./components/PadreDeporte.vue";
-import PadreNumeros from "./components/PadreNumeros.vue";
-import ComicsComponent from "./components/ComicsComponent.vue";
+// import PadreNumeros from "./components/PadreNumeros.vue";
+// import ComicsComponent from "./components/ComicsComponent.vue";
+import SeleccionMultiple from "./components/SeleccionMultiple.vue";
 
 export default {
   name: "App",
   components: {
     // PadreDeporte,
-    PadreNumeros,
-    ComicsComponent,
+    // PadreNumeros,
+    // ComicsComponent,
+    SeleccionMultiple,
   },
 };
 </script>
