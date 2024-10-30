@@ -1,0 +1,17 @@
+.rojo{
+    color:white;
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+img{
+    width: 150px;
+    height: 250px;
+}
+
+div#comics{
+    float: left;
+}

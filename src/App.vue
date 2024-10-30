@@ -1,4 +1,7 @@
 <template>
+  <!-- <ComicsComponent /> -->
+  <ComicsComponent />
+  <hr />
   <!-- <PadreDeporte /> -->
   <PadreNumeros />
 </template>
@@ -7,12 +10,14 @@
 // import HijoDeporte from "./components/HijoDeporte.vue";
 // import PadreDeporte from "./components/PadreDeporte.vue";
 import PadreNumeros from "./components/PadreNumeros.vue";
+import ComicsComponent from "./components/ComicsComponent.vue";
 
 export default {
   name: "App",
   components: {
     // PadreDeporte,
     PadreNumeros,
+    ComicsComponent,
   },
 };
 </script>
