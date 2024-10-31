@@ -3,7 +3,7 @@
   <!-- <PadreDeporte /> -->
   <!-- <SeleccionMultiple /> -->
 
-  <Menu />
+  <MenuTablaMultiplicar />
   <router-view></router-view>
 </template>
 
@@ -13,7 +13,7 @@
 // import PadreNumeros from "./components/PadreNumeros.vue";
 // import ComicsComponent from "./components/ComicsComponent.vue";
 //import SeleccionMultiple from "./components/SeleccionMultiple.vue";
-import Menu from "./components/Menu.vue";
+import MenuTablaMultiplicar from "./components/MenuTablaMultiplicar.vue";
 
 export default {
   name: "App",
@@ -22,7 +22,7 @@ export default {
     // PadreNumeros,
     // ComicsComponent,
     // SeleccionMultiple,
-    Menu,
+    MenuTablaMultiplicar,
   },
 };
 </script>
